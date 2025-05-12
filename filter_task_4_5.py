@@ -6,4 +6,6 @@ def filter_task_4_5(students):
     Returns:
         list of students who passed
     """
-    return
+    return dict(filter(lambda i : i['grade'] >=60 ,students))
+a=[{"name": "Alice", "grade": 85}, {"name": "Bob", "grade": 55}, {"name": "Charlie", "grade": 70}]
+print(filter_task_4_5(a))
