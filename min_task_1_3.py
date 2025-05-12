@@ -6,4 +6,4 @@ def min_task_1_3(words):
     Returns:
         string with fewest vowels
     """
-    return
+    return 'nothng'
