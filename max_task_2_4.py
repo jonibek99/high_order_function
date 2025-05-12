@@ -6,4 +6,15 @@ def max_task_2_4(words):
     Returns:
         word with most vowels
     """
-    return
+    c=0
+    b=[]
+    for i in words:
+        if i in 'euioa,EUIOA':
+            c+=1
+            b.append(c)
+    return(b)
+a=["tree", "education", "sky", "road"]
+print(max_task_2_4(a))
+
+
+
