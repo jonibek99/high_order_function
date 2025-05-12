@@ -6,4 +6,6 @@ def min_task_1_1(numbers):
     Returns:
         smallest number
     """
-    return
+    return min(numbers)
+a=[3, 1, 4, 2]
+print(min_task_1_1(a))
