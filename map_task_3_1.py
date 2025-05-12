@@ -6,4 +6,6 @@ def map_task_3_1(numbers):
     Returns:
         list with 10 added to each number
     """
-    return
+    return list(map(lambda i: i+10,numbers))
+a=[1, 2, 3]
+print(map_task_3_1(a))
