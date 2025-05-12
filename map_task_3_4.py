@@ -6,4 +6,7 @@ def map_task_3_4(numbers):
     Returns:
         list of squared numbers
     """
-    return
+    return list(map(lambda i : i**2,numbers))
+a=[1, 4, 5]
+print(map_task_3_4(a))
+
