@@ -6,4 +6,6 @@ def lambda_task_5_3(students):
     Returns:
         sorted list of students by grade (highest to lowest)
     """
-    return
+    return sorted(students,key=lambda i: i.isdigit())
+a=[{"name": "Alice", "grade": 85}, {"name": "Bob", "grade": 92}, {"name": "Charlie", "grade": 78}]
+print(lambda_task_5_3(a))
