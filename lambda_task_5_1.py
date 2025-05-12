@@ -6,4 +6,6 @@ def lambda_task_5_1(numbers):
     Returns:
         sorted list in descending order
     """
-    return
+    return sorted(numbers)[::-1]
+a=[3, 1, 4, 2]
+print(lambda_task_5_1(a))
