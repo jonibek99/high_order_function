@@ -6,4 +6,9 @@ def min_task_1_2(words):
     Returns:
         shortest word
     """
-    return
+    a=list(map(lambda i: len(i),words))
+    b=min(a)
+    c=a.index(b)
+    return c
+p=["apple", "banana", "kiwi", "pear"]
+print(min_task_1_2(p))
