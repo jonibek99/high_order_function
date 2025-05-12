@@ -6,4 +6,6 @@ def filter_task_4_2(words):
     Returns:
         list of words longer than 4 letters
     """
-    return
+    return list(filter(lambda i: len(i)>4,words))
+a=["hi", "hello", "world", "cat"]
+print(filter_task_4_2(a))
