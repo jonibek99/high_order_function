@@ -6,4 +6,6 @@ def map_task_3_2(words):
     Returns:
         list of uppercase words
     """
-    return
+    return list(map(lambda i : i.upper(),words))
+a=["cat", "dog", "fish"]
+print(map_task_3_2(a))
