@@ -6,4 +6,6 @@ def lambda_task_5_2(words):
     Returns:
         sorted list by word length
     """
-    return
+    return sorted(words,key=lambda i: len(i))
+a=["apple", "banana", "kiwi", "pear"]
+print(lambda_task_5_2(a))
